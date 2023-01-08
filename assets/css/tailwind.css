@@ -1,0 +1,12 @@
+@import url('https://fonts.googleapis.com/css2?family=Battambang&family=Chenla&family=Hanuman:wght@300;400&family=Kdam+Thmor+Pro&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body{
+  font-family: 'Battambang', cursive;
+  font-family: 'Chenla', cursive;
+  font-family: 'Hanuman', serif;
+  /* font-family: 'Kdam Thmor Pro', sans-serif; */
+}
