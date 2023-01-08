@@ -8,8 +8,8 @@
       <ul tabindex="0" class="menu menu-compact dropdown-content mt-3 p-2 shadow bg-base-100 rounded-box w-52">
         <li>
           <nuxt-link to="/">Home</nuxt-link>
-          <nuxt-link to="/blog">Lesson Posts</nuxt-link>
-          <nuxt-link to="/about-us">About</nuxt-link>
+
+
           <!-- <nuxt-link
           v-for="(route, index) in routes"
           :key="index"
@@ -19,6 +19,8 @@
           >{{ $t(route.label) }}</nuxt-link
         > -->
         </li>
+        <li><nuxt-link to="/blog">Lesson Posts</nuxt-link></li>
+        <li><nuxt-link to="/about-us">About</nuxt-link></li>
       </ul>
     </div>
     <nuxt-link to="/">
@@ -33,8 +35,6 @@
     <ul class="menu menu-horizontal px-1">
       <li>
         <nuxt-link to="/">ទំព័រដើម</nuxt-link>
-        <nuxt-link to="/blog">មេរៀន</nuxt-link>
-        <nuxt-link to="/about-us">អំពីយើង</nuxt-link>
         <!-- <nuxt-link
           v-for="(route, index) in routes"
           :key="index"
@@ -44,6 +44,8 @@
           >{{ $t(route.label) }}</nuxt-link
         > -->
       </li>
+      <li><nuxt-link to="/blog">Lesson Posts</nuxt-link></li>
+      <li><nuxt-link to="/about-us">About</nuxt-link></li>
     </ul>
   </div>
 </div>
