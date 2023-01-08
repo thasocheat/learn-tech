@@ -7,7 +7,7 @@
       </label>
       <ul tabindex="0" class="menu menu-compact dropdown-content mt-3 p-2 shadow bg-base-100 rounded-box w-52">
         <li>
-          <nuxt-link to="/">Home</nuxt-link>
+          <nuxt-link to="/">ទំព័រដើម</nuxt-link>
 
 
           <!-- <nuxt-link
@@ -19,8 +19,8 @@
           >{{ $t(route.label) }}</nuxt-link
         > -->
         </li>
-        <li><nuxt-link to="/blog">Lesson Posts</nuxt-link></li>
-        <li><nuxt-link to="/about-us">About</nuxt-link></li>
+        <li><nuxt-link to="/blog">មេរៀន</nuxt-link></li>
+        <li><nuxt-link to="/about-us">អំពីយើង</nuxt-link></li>
       </ul>
     </div>
     <nuxt-link to="/">
@@ -44,8 +44,8 @@
           >{{ $t(route.label) }}</nuxt-link
         > -->
       </li>
-      <li><nuxt-link to="/blog">Lesson Posts</nuxt-link></li>
-      <li><nuxt-link to="/about-us">About</nuxt-link></li>
+      <li><nuxt-link to="/blog">មេរៀន</nuxt-link></li>
+      <li><nuxt-link to="/about-us">អំពីយើង</nuxt-link></li>
     </ul>
   </div>
 </div>
