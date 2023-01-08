@@ -24,9 +24,9 @@
       </ul>
     </div>
     <nuxt-link to="/">
-      <img src="/circle.png" class="w-12"/>
+      <img src="/circle.png" class="w-10"/>
     </nuxt-link>
-    <span class="p-4">Learn Tech</span>
+    <!-- <span class="p-4">Learn Tech</span> -->
     <!-- <nuxt-link exact :to="localePath('index')">
       <img src="/circle.png" class="w-8" />
     </nuxt-link> -->
